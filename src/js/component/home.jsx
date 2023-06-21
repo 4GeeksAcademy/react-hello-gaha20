@@ -4,8 +4,8 @@ import React from "react";
 // import rigoImage from "../../img/rigo-baby.jpg";
 import Jumbotron from "./jumbotron.jsx";
 import Navbar from "./navbar.jsx";
-import Cards from "./cards";
-import Footer from "./footer";
+import Cards from "./cards.jsx";
+import Footer from "./footer.jsx";
 
 //create your first component
 const Home = () => {
