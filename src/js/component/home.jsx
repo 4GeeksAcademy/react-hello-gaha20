@@ -10,18 +10,19 @@ import Footer from "./footer.jsx";
 //create your first component
 const Home = () => {
 	return (
+		<div className="">
+			< Navbar/>	
 		<div className="container-fluid">
-			< Navbar/>
-			< Jumbotron/>
+			< Jumbotron/>	
 		<div className="container d-flex">
 			< Cards/>
 			< Cards/>
 			< Cards/>
 			< Cards/>
-			</div>
-			< Footer/>
-			
-			
+		</div>
+
+		</div>
+		    < Footer/>
 		</div>
 	);
 };
