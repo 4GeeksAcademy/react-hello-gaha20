@@ -18,10 +18,8 @@ const Home = () => {
 			< Cards/>
 			< Cards/>
 			< Cards/>
-			</div>
+		</div>
 			< Footer/>
-			
-			
 		</div>
 	);
 };
