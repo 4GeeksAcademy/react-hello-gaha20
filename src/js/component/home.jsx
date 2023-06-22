@@ -13,10 +13,12 @@ const Home = () => {
 		<div className="text-center">
 			< Navbar/>
 			< Jumbotron/>
+		<div className="container d-flex">
 			< Cards/>
 			< Cards/>
 			< Cards/>
 			< Cards/>
+			</div>
 			< Footer/>
 			
 			
