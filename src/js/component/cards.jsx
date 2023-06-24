@@ -4,7 +4,7 @@ const Cards = () => {
     return(
 
     <div className="p-2 text-center">
-        <div className="card d-flex">
+        <div className="card">
             <img src="https://picsum.photos/500/325" className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">Card title</h5>
