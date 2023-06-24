@@ -10,15 +10,15 @@ import Footer from "./footer.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div>
+		<div className="container-fluid p-0">
 			<div>
 				< Navbar/>	
 			</div>
-			<div className="container">
+			<div className="container" /*style={{minHeight:"100vh"}}*/>
 				<div className="container">
 					< Jumbotron/>
 				</div>	
-				<div className="container d-flex">
+				<div className="container d-flex flex-wrap justify-content-between">
 					< Cards/>
 					< Cards/>
 					< Cards/>
